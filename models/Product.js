@@ -32,6 +32,7 @@ Product.init(
     //define stock column
     stock: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       validate: {
         isNumeric: true
       }

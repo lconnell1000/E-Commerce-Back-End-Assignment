@@ -2,10 +2,7 @@ const { Tag } = require('../models');
 
 const tagData = [
   {
-    tag_name: 'rock music',
-  },
-  {
-    tag_name: 'pop music',
+    tag_name: 'hardcore music',
   },
   {
     tag_name: 'blue',
@@ -14,7 +11,7 @@ const tagData = [
     tag_name: 'red',
   },
   {
-    tag_name: 'green',
+    tag_name: 'yellow',
   },
   {
     tag_name: 'white',
@@ -23,8 +20,11 @@ const tagData = [
     tag_name: 'gold',
   },
   {
-    tag_name: 'pop culture',
+    tag_name: 'sporting goods',
   },
+  {
+    tag_name: 'black',
+  }
 ];
 
 const seedTags = () => Tag.bulkCreate(tagData);
